@@ -1,7 +1,9 @@
 <ul>
   <% @cocktails.each do |cocktail| %>
-    <li><%= cocktail.name %></li>
+  <li><%= cocktail.name %></li>
+  <% if cocktail.photo.attached? %>
     <%= cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+  <% end %>
   <% end %>
 </ul>
 
