@@ -1,12 +1,10 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
+  }
+ }
